@@ -10,7 +10,7 @@
 
 # Clasificación de intenciones con Transformers y análisis crítico de errores con LLM
 
-**Caso de estudio académico individual · Sistemas Cognitivos Artificiales · Maestría en Inteligencia Artificial**
+**Caso de estudio académico  · Sistemas Cognitivos Artificiales · Maestría en Inteligencia Artificial**
 
 > **Pregunta central:** ¿puede un modelo generativo explicar de forma fiable los errores de un clasificador de intenciones bancarias? El experimento muestra por qué **coherencia lingüística ≠ explicación causal**.
 
@@ -87,8 +87,8 @@ Es un experimento **educativo**, no un sistema bancario real. No contiene datos 
 ## 📚 Documentación
 
 - [Metodología, entorno, resultados y limitaciones](docs/methodology-and-limitations.md)
-- Notebook experimental: **pendiente de incorporar**
-
+- [Notebook experimental:] (/banking77_falcon_experiment.ipynb)
+  
 ---
 <p align="center"><strong>Evaluar la IA implica cuestionar también las explicaciones que genera.</strong></p>
 <p align="center">Autor: <a href="https://github.com/isaiassolis">Isaías Solís</a></p>
