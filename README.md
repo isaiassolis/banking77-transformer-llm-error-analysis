@@ -87,7 +87,7 @@ Es un experimento **educativo**, no un sistema bancario real. No contiene datos 
 ## 📚 Documentación
 
 - [Metodología, entorno, resultados y limitaciones](docs/methodology-and-limitations.md)
-- [Notebook experimental:] ([/banking77_falcon_experiment.ipynb](https://github.com/isaiassolis/banking77-transformer-llm-error-analysis/blob/main/banking77_falcon_experiment.ipynb))
+- [Notebook experimental:]([banking77_falcon_experiment.ipynb](https://github.com/isaiassolis/banking77-transformer-llm-error-analysis/blob/main/banking77_falcon_experiment.ipynb))
   
 ---
 <p align="center"><strong>Evaluar la IA implica cuestionar también las explicaciones que genera.</strong></p>
