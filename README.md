@@ -63,7 +63,7 @@ Los resultados corresponden a las **salidas y conclusiones del notebook académi
 
 ## 🧪 Cómo explorar el experimento
 
-1. Consulta el notebook experimental en la carpeta `notebooks/`.
+1. Consulta el [notebook experimental](banking77_falcon_experiment.ipynb) en la raíz del repositorio.
 2. Revisa [metodología y límites](docs/methodology-and-limitations.md).
 3. Ejecuta en **Google Colab con GPU** y comprueba versiones y disponibilidad de los modelos. **No** es una aplicación ligera ni un servicio listo para producción.
 
@@ -87,7 +87,7 @@ Es un experimento **educativo**, no un sistema bancario real. No contiene datos 
 ## 📚 Documentación
 
 - [Metodología, entorno, resultados y limitaciones](docs/methodology-and-limitations.md)
-- [Notebook experimental: banking77_falcon_experiment.ipynb] (https://github.com/isaiassolis/banking77-transformer-llm-error-analysis/blob/main/banking77_falcon_experiment.ipynb))
+- [Notebook experimental: banking77_falcon_experiment.ipynb](banking77_falcon_experiment.ipynb)
   
 ---
 <p align="center"><strong>Evaluar la IA implica cuestionar también las explicaciones que genera.</strong></p>
