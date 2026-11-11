@@ -1,0 +1,18 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!*.env.example
+# Model weights / training artifacts
+*.safetensors
+*.pt
+*.pth
+*.bin
+checkpoint-*/
+outputs/
+logs/
+wandb/
