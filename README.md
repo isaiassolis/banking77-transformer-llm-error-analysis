@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:12395D,100:087F8C&height=205&section=header&text=Banking77%20%26%20LLM%20Error%20Analysis&fontSize=32&fontColor=ffffff&desc=Transformers%20%7C%20Intent%20Classification%20%7C%20Critical%20Evaluation&descAlignY=66&descSize=15&animation=fadeIn" width="100%" alt="Banking77 and LLM Error Analysis" />
+  <img src="assets/banner.svg" width="100%" alt="Banking77 and LLM Error Analysis" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Project-Academic%20Experiment-087F8C?style=for-the-badge" alt="Academic Experiment" />
