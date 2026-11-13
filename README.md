@@ -14,13 +14,13 @@
 
 > **Pregunta central:** ¿puede un modelo generativo explicar de forma fiable los errores de un clasificador de intenciones bancarias? El experimento muestra por qué **coherencia lingüística ≠ explicación causal**.
 
-## 🎯 Problema
+## Problema
 
 Los asistentes bancarios necesitan distinguir entre **77 intenciones** expresadas en consultas breves y con vocabulario solapado. Además de medir el acierto del clasificador, el experimento analiza la utilidad —y los límites— de las explicaciones generadas por un segundo modelo.
 
 Se utiliza **[Banking77](https://huggingface.co/datasets/PolyAI/banking77)**: 13,083 consultas en inglés, con 10,003 muestras de entrenamiento y 3,080 de prueba.
 
-## 🔄 Flujo experimental
+## Flujo experimental
 
 ```mermaid
 flowchart TD
@@ -33,7 +33,7 @@ flowchart TD
   G --> H[Evaluación manual con 4 criterios]
 ```
 
-## 📊 Resultados documentados
+## Resultados documentados
 
 ### Clasificador DistilRoBERTa
 
@@ -61,7 +61,7 @@ Configuración reportada: `distilroberta-base`, 77 clases, tasa de aprendizaje d
 
 Los resultados corresponden a las **salidas y conclusiones del notebook académico original**, no a una reejecución independiente. La revisión manual de 20 casos es ilustrativa; no basta para generalizar estadísticamente sobre los 407 errores.
 
-## 🧪 Cómo explorar el experimento
+## Cómo explorar el experimento
 
 1. Consulta el [notebook experimental](banking77_falcon_experiment.ipynb) en la raíz del repositorio.
 2. Revisa [metodología y límites](docs/methodology-and-limitations.md).
@@ -71,7 +71,7 @@ El notebook fuente incluye instrucciones de instalación y descarga datos/modelo
 
 > **Nota de reproducibilidad:** los paquetes no están completamente fijados a versiones; Hugging Face, PyTorch y CUDA pueden cambiar. Para reproducibilidad estricta se necesita registrar un entorno congelado y volver a ejecutar el experimento de principio a fin.
 
-## 🧭 Qué demuestra
+## Qué demuestra
 
 - Preparación y análisis de datos de texto multiclase.
 - Entrenamiento y evaluación de un Transformer discriminativo.
@@ -80,11 +80,11 @@ El notebook fuente incluye instrucciones de instalación y descarga datos/modelo
 - Evaluación humana de fundamentación, coherencia y utilidad de explicaciones.
 - Comunicación explícita de riesgos y limitaciones de la IA generativa.
 
-## 🔒 Uso responsable
+## Uso responsable
 
 Es un experimento **educativo**, no un sistema bancario real. No contiene datos de clientes ni credenciales. Se publican el método y el código, no pesos de modelos derivados ni copias del dataset. Antes de una reutilización comercial deben comprobarse las licencias del dataset, modelos y dependencias.
 
-## 📚 Documentación
+## Documentación
 
 - [Metodología, entorno, resultados y limitaciones](docs/methodology-and-limitations.md)
 - [Notebook experimental: banking77_falcon_experiment.ipynb](banking77_falcon_experiment.ipynb)
